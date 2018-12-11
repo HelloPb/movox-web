@@ -1,6 +1,4 @@
 .movc-btn {
-
-  width: 100%;
   color: white;
   height: 30px;
 
@@ -25,4 +23,11 @@
     border-color: $teriary-tint;
     color: black;
   }
+  
+  &.movc-btn-hero {
+    background-color: $hero;
+    border-color: $hero;
+    color: white;
+  }
 }
+
