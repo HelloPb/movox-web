@@ -1,0 +1,26 @@
+.movc-label-sm {
+  @include font-size(10);
+}
+
+.movc-label-sm-bold {
+  @include font-size(10);
+  font-weight: bold;
+}
+
+.movc-label-md {
+  @include font-size(12);
+}
+
+.movc-label-md-bold {
+  @include font-size(12);
+  font-weight: bold;
+}
+
+.movc-label-lg {
+  @include font-size(14);
+}
+
+.movc-label-lg-bold {
+  @include font-size(14);
+  font-weight: bold;
+}

@@ -1,0 +1,28 @@
+.movc-btn {
+
+  width: 100%;
+  color: white;
+  height: 30px;
+
+  &.border-none {
+    border: none;
+  }
+
+  &.movc-btn-success {
+    background-color: $secondary;
+    border-color: $secondary;
+    color: $primary;
+  }
+
+  &.movc-btn-tertiay {
+    background-color: $teriary;
+    border-color: $teriary;
+    color: $primary;
+  }
+
+  &.movc-btn-tertiay-tint {
+    background-color: $teriary-tint;
+    border-color: $teriary-tint;
+    color: black;
+  }
+}
