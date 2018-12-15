@@ -1,33 +1,22 @@
 .movc-btn {
-  color: white;
   height: 30px;
-
-  &.border-none {
-    border: none;
-  }
 
   &.movc-btn-success {
     background-color: $secondary;
-    border-color: $secondary;
-    color: $primary;
+    border-color: $secondary-tint;
+    color: $secondary-contrast;
   }
 
   &.movc-btn-tertiay {
     background-color: $tertiary;
-    border-color: $tertiary;
-    color: $primary;
-  }
-
-  &.movc-btn-tertiay-tint {
-    background-color: $tertiary-tint;
     border-color: $tertiary-tint;
-    color: black;
+    color: $tertiary-contrast;
   }
   
   &.movc-btn-hero {
     background-color: $hero;
-    border-color: $hero;
-    color: white;
+    border-color: $hero-tint;
+    color: $hero-contrast;
   }
 }
 

@@ -1,35 +1,31 @@
+.movc-typo-xxs {
+    @include font-size(xxs);
+}
+
+.movc-typo-xs {
+    @include font-size(xs);
+}
+
 .movc-typo-sm {
-    @include font-size(8);
+    @include font-size(sm);
 }
 
 .movc-typo-sm-1 {
-    @include font-size(9);
+    @include font-size(sm-1);
 }
 
 .movc-typo-md {
-    @include font-size(10);
+    @include font-size(md);
 }
 
 .movc-typo-lg {
-    @include font-size(12);
+    @include font-size(lg);
 }
 
 .movc-typo-xl {
-    @include font-size(14);
+    @include font-size(xl);
 }
 
-.movc-typo-16 {
-    @include font-size(16);
-}
-
-.movc-typo-18 {
-    @include font-size(18);
-}
-
-.movc-typo-20 {
-    @include font-size(18);
-}
-
-.movc-typo-24 {
-    @include font-size(24);
+.movc-typo-xxl {
+    @include font-size(xxl);
 }

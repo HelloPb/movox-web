@@ -1,3 +1,25 @@
 @mixin font-size($type) {
-  font-size: #{$type}px;
+
+  @if $type=='xxs' {
+    font-size: 10px;
+  }
+  @else if $type=='xs' {
+    font-size: 12px;
+  }
+  @else if $type=='sm' {
+    font-size: 14px;
+  }
+  @else if $type=='md' {
+    font-size: 16px;
+  }
+  @else if $type=='lg' {
+    font-size: 18px;
+  }
+  @else if $type=='xl' {
+    font-size: 20px;
+  }
+  @else if $type=='xxl' {
+    font-size: 24px;
+  }
+
 }
