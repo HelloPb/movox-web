@@ -1,11 +1,15 @@
+.movc-label-xs {
+  @include font-size(xs-1);
+}
+
+.movc-label-xs-3 {
+  @include font-size(xs-3);
+}
+
 .movc-label-sm {
-  @include font-size(sm);
+  @include font-size(sm-1);
 }
 
 .movc-label-md {
-  @include font-size(md);
-}
-
-.movc-label-lg {
-  @include font-size(lg);
+  @include font-size(md-1);
 }

@@ -1,16 +1,23 @@
 .movc-btn {
-  height: 30px;
+  padding: 5px;
+  min-height: 30px;
 
-  &.movc-btn-success {
+  &.movc-btn-secondary {
     background-color: $secondary;
     border-color: $secondary-tint;
-    color: $secondary-contrast;
+    color: white;
   }
 
   &.movc-btn-tertiay {
     background-color: $tertiary;
     border-color: $tertiary-tint;
     color: $tertiary-contrast;
+  }
+  
+  &.movc-btn-success {
+    background-color: $success;
+    border-color: $success-tint;
+    color: $success-contrast;
   }
   
   &.movc-btn-hero {
