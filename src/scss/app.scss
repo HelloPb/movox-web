@@ -1,0 +1,9 @@
+.movc-btn-print {
+    background-color: $hero;
+    color: white;
+    border: none;
+    @include font-size(sm);
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+}
