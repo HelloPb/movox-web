@@ -1,11 +1,71 @@
-.movc-danger {
-  color: $danger;
+.movc-bg-hero {
+  background-color: $hero;
+}
+
+.movc-bg-primary {
+  background-color: $primary;
+}
+
+.movc-bg-secondary {
+  background-color: $secondary;
+}
+
+.movc-bg-tertiary {
+  background-color: $tertiary;
+}
+
+.movc-bg-success {
+  background-color: $success;
+}
+
+.movc-bg-warning {
+  background-color: $warning;
+}
+
+.movc-bg-dark {
+  background-color: $dark;
+}
+
+.movc-bg-medium {
+  background-color: $medium;
+}
+
+.movc-bg-light {
+  background-color: $light;
+}
+
+.movc-hero {
+  color: $hero;
 }
 
 .movc-primary {
   color: $primary;
 }
 
-.movc-hero {
-  color: $hero;
+.movc-secondary {
+  color: $secondary;
+}
+
+.movc-tertiary {
+  color: $tertiary;
+}
+
+.movc-success {
+  color: $success;
+}
+
+.movc-warning {
+  color: $warning;
+}
+
+.movc-dark {
+  color: $dark;
+}
+
+.movc-medium {
+  color: $medium;
+}
+
+.movc-light {
+  color: $light;
 }
