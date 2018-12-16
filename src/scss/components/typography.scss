@@ -1,5 +1,13 @@
+.movc-typo-xxs-2 {
+  @include font-size(xxs-2);
+}
+
 .movc-typo-xs {
   @include font-size(xs-1);
+}
+
+.movc-typo-xs-4 {
+  @include font-size(xs-4);
 }
 
 .movc-typo-sm {
@@ -8,6 +16,10 @@
 
 .movc-typo-md {
   @include font-size(md-1);
+}
+
+.movc-typo-md-3 {
+  @include font-size(md-3);
 }
 
 .movc-typo-lg {

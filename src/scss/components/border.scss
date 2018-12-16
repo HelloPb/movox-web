@@ -1,3 +1,17 @@
-.border-none {
-  border: none;
+.border-unset {
+  border-style: unset;
+}
+
+.border-left-5 {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.border-right-5 {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.border-5 {
+  border-radius: 5px;
 }

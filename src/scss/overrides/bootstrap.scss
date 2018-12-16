@@ -3,5 +3,9 @@
 }
 
 .container {
-  max-width: 900px;
+  max-width: 996px;
+
+  &.movc-container {
+    max-width: 794px;
+  }
 }

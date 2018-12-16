@@ -22,6 +22,10 @@
   background-color: $warning;
 }
 
+.movc-bg-danger {
+  background-color: $danger;
+}
+
 .movc-bg-dark {
   background-color: $dark;
 }
@@ -56,6 +60,10 @@
 
 .movc-warning {
   color: $warning;
+}
+
+.movc-danger {
+  color: $danger;
 }
 
 .movc-dark {
