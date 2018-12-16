@@ -2,6 +2,14 @@
   @include font-size(xxs-2);
 }
 
+.movc-typo-xxs-3 {
+  @include font-size(xxs-3);
+}
+
+.movc-typo-xxs-4 {
+  @include font-size(xxs-4);
+}
+
 .movc-typo-xs {
   @include font-size(xs-1);
 }
