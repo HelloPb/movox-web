@@ -14,6 +14,14 @@
   @include font-size(xs-1);
 }
 
+.movc-typo-xs-2 {
+  @include font-size(xs-3);
+}
+
+.movc-typo-xs-3 {
+  @include font-size(xs-3);
+}
+
 .movc-typo-xs-4 {
   @include font-size(xs-4);
 }
@@ -32,4 +40,8 @@
 
 .movc-typo-lg {
   @include font-size(lg-1);
+}
+
+.movc-typo-lg-3 {
+  @include font-size(lg-3);
 }
