@@ -1,12 +1,14 @@
 <div class="container-fluid bg-white">
-  <div class="container">
-    <nav class="navbar navbar-light p-0">
-      <a class="navbar-brand" href="javascript:void(0)"><img src="/assets/images/movox-logo-master.png" height="43"></a>
-      <div class="d-flex align-content-center">
-        <span class="movc-typo-md-3 movc-bold line-height-unset mr-4">YOUR MONTHLY BILL</span>
-        <button class="movc-btn movc-btn-print" type="button" (click)="print()">PRINT</button>
-      </div>
-    </nav>
+  <div class="container movc-header">
+    <div class="w-100">
+      <nav class="navbar navbar-light">
+        <a class="navbar-brand" href="javascript:void(0)"><img src="/assets/images/movox-logo-master.png" height="43"></a>
+        <div class="d-flex align-content-center">
+          <span class="movc-typo-md-3 movc-bold line-height-unset mr-4">YOUR MONTHLY BILL</span>
+          <button class="movc-btn movc-btn-print" type="button" (click)="print()">PRINT</button>
+        </div>
+      </nav>
+    </div>
   </div>
 </div>
 
@@ -14,7 +16,7 @@
 
   <div class="container movc-container ">
 
-    <div class="movc-typo-xxs-2 d-flex justify-content-end my-4">MOVOX PTY LTD 32 602 123 491</div>
+    <div class="movc-typo-xs d-flex justify-content-end my-4">MOVOX PTY LTD 32 602 123 491</div>
 
     <div class="row no-gutters movc-p-6 movc-bg-primary movc-box-shadow-2">
 
@@ -23,7 +25,7 @@
         <div class="row no-gutters justify-content-between">
 
           <div class="col d-flex">
-            <div class="movc-card mb-3">
+            <div class="movc-card mb-3 mr-3">
               <div class="row no-gutters">
                 <div class="col-12">
                   <div class="movc-label-sm movc-bold movc-accout-total">CUSTOMER</div>
@@ -43,15 +45,15 @@
           </div>
 
           <div class="col d-flex">
-            <div class="movc-card mb-3">
+            <div class="movc-card mb-3 mr-3">
               <div class="row no-gutters">
                 <div class="col-12">
                   <div class="movc-label-sm movc-bold movc-accout-total">THIS BILL</div>
                   <hr class="my-2" />
                 </div>
                 <div class="col-12 d-flex justify-content-between text-right">
-                  <div class="movc-label-xxs-3"><span class="mr-1">INVOICE</span><span>123456</span></div>
-                  <div class="movc-label-xxs-3"><span>03 Nov 18</span></div>
+                  <div class="movc-label-xs"><span class="mr-1">INVOICE</span><span>123456</span></div>
+                  <div class="movc-label-xs"><span>03 Nov 18</span></div>
                 </div>
                 <div class="col-12 text-right movc-typo-lg movc-bold mt-3 pt-1">$990.85</div>
                 <div class="col-12 text-right movc-label-xs mt-2 mb-3">INCLUDES GST OF $53.76</div>
@@ -60,7 +62,8 @@
                     BY</div>
                 </div>
                 <div class="col-6">
-                  <div class="movc-btn movc-btn-tertiay border-none border-right-5 movc-box-shadow-2 w-100 movc-typo-xs mt-4 pt-2 text-center">17 JAN 2017</div>
+                  <div class="movc-btn movc-btn-tertiay border-none border-right-5 movc-box-shadow-2 w-100 movc-typo-xs mt-4 pt-2 text-center">17
+                    JAN 2017</div>
                 </div>
               </div>
             </div>
@@ -74,20 +77,18 @@
                   <hr class="my-2" />
                 </div>
                 <div class="col-12 text-right">
-                  <div class="movc-label-xxs-3"><span class="mr-1">ACCOUNT</span><span>123456</span></div>
+                  <div class="movc-label-xs"><span class="mr-1">ACCOUNT</span><span>123456</span></div>
                 </div>
                 <div class="col-12 text-right movc-typo-lg movc-bold mt-3 pt-1">$990.85</div>
                 <div class="col-12 text-right movc-label-xs movc-danger mt-2 mb-3">OVERDUE $633.50</div>
                 <div class="col-12">
-                  <button class="border-unset movc-btn movc-btn-success movc-primary movc-typo-xs-4 movc-bold border-none border-5  movc-box-shadow-2 w-100 mt-4 pt-2 text-center">PAY
+                  <button class="border-unset movc-btn movc-btn-success movc-primary movc-typo-xs-4 movc-bold border-none border-5 movc-box-shadow-2 w-100 mt-4 pt-2 text-center">PAY
                     NOW</button>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
 
       <div class="col-12">
@@ -140,14 +141,14 @@
               <img class="movc-image-small" src="/assets/images/bpay.png">
               <div class="movc-bpay mt-3">
                 <div class="row no-gutters movc-linehieght-reduced">
-                  <div class="col-12"><span class="movc-typo-xs mr-1">BPAY Biller Code</span><span class="movc-typo-xxs-4">197723</span></div>
-                  <div class="col-12"><span class="movc-typo-xs mr-1">Reference</span><span class="movc-typo-xxs-4">987654321987</span></div>
+                  <div class="col-12"><span class="movc-typo-xs mr-1">BPAY Biller Code</span><span class="movc-typo-xs">197723</span></div>
+                  <div class="col-12"><span class="movc-typo-xs mr-1">Reference</span><span class="movc-typo-xs">987654321987</span></div>
                 </div>
               </div>
             </div>
 
             <div class="col col-auto">
-              <div class="movc-w-310">
+              <div class="movc-w-280">
                 <div class="row no-gutters">
                   <div class="col">
                     <img class="movc-image-small" src="/assets/images/visa.png">
@@ -162,27 +163,20 @@
                     <img class="movc-image-small" src="/assets/images/diners-club.png">
                   </div>
                 </div>
-
-                <div class="row mt-3 movc-linehieght-reduced no-gutters">
+              </div>
+              <div class="movc-w-440">
+                <div class="row mt-3 movc-linehieght-reduced">
                   <div class="col col-auto">
-                    <div class="mr-2">
-                      <span class="movc-typo-xs mr-1">PHONE</span><span class="movc-typo-xxs-4">1800 100 800</span>
-                    </div>
+                    <span class="movc-typo-xs mr-1">PHONE</span><span class="movc-typo-xs">1800 100 800</span>
                   </div>
                   <div class="col col-auto">
-                    <div class="mr-2">
-                      <span class="movc-typo-xs mr-1">ONLINE</span><span class="movc-typo-xxs-4">movox.com.au/pay-a-bill</span>
-                    </div>
+                    <span class="movc-typo-xs mr-1">ONLINE</span><span class="movc-typo-xs">movox.com.au/pay-a-bill</span>
                   </div>
                   <div class="col col-auto">
-                    <div class="mr-2">
-                      <span class="movc-typo-xs mr-1">Biller ID</span><span class="movc-typo-xxs-4">999441</span>
-                    </div>
+                    <span class="movc-typo-xs mr-1">Biller ID</span><span class="movc-typo-xs">999441</span>
                   </div>
                   <div class="col col-auto">
-                    <div class="mr-2">
-                      <span class="movc-typo-xs mr-1">Reference</span><span class="movc-typo-xxs-4">987654</span>
-                    </div>
+                    <span class="movc-typo-xs mr-1">Reference</span><span class="movc-typo-xs">987654</span>
                   </div>
                 </div>
               </div>
@@ -192,8 +186,8 @@
               <img class="movc-image-small" src="/assets/images/directdebit.png">
               <div class="movc-directdebit mt-3 w-100">
                 <div class="row no-gutters">
-                  <div class="col-12 movc-typo-xxs-4">Automatic payment from your bank account on the due
-                    date&nbsp;&nbsp;<a href="javascript:void(0)" class="movc-bold"> SETUP DIRECT DEBIT ></a></div>
+                  <div class="col-12 movc-typo-xs">Automatic payment from your bank account on the due
+                    date&nbsp;&nbsp;<a href="javascript:void(0)" class="movc-bold float-right"> SETUP DIRECT DEBIT ></a></div>
                 </div>
               </div>
             </div>
